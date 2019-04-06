@@ -1,0 +1,54 @@
+.App {
+  background-color: #f5f8fa;
+  min-height: 100vh;
+}
+
+.App-header {
+  text-align: center;
+  padding: 28px;
+  font-size: calc(10px + 0.9vmin);
+}
+
+.mainContent {
+  margin: auto;
+  width: 80%;
+  display: flex;
+}
+
+.left {
+  flex: 1;
+  padding: 10px;
+}
+
+.right {
+  flex: 2;
+  padding: 10px;
+}
+
+.bp3-card {
+  padding: 18px;
+}
+
+.bp3-card .bp3-tag {
+  margin-top: 10px;
+  margin-right: 8px;
+}
+
+.bp3-card .bp3-control {
+  margin: 0;
+}
+
+.itemCard {
+  padding: 12px 18px;
+  margin-bottom: 8px;
+}
+
+.itemCard h2 {
+  margin: 0;
+}
+
+.taskDone {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
