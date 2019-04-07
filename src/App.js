@@ -134,8 +134,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1>React To-Do App</h1>
+          <hr style={{ width: "50%", margin: "auto" }} />
         </header>
-
         <main>
           <div className="mainContent">
             <div className="left">
