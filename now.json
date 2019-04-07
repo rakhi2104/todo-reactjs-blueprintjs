@@ -2,6 +2,7 @@
   "version": 2,
   "name": "todo",
   "public": false,
+  "alias": ["todo.rakhi2104.now.sh"],
   "builds": [
     {
       "src": "package.json",
