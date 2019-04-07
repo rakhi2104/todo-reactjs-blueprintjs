@@ -22,7 +22,11 @@ class App extends Component {
       var taskID = uuid.v4();
       defaultTasks.push({
         due: new Date(
-          Date.now() + Math.ceil(Math.random() * 10) * 864 * Math.pow(10, 5)
+          Date.now() +
+            (Math.random() > 0.5 ? -1 : 1) *
+              Math.ceil(Math.random() * 10) *
+              864 *
+              Math.pow(10, 5)
         ),
         id: taskID,
         message: "Task " + (counter + i + 1),

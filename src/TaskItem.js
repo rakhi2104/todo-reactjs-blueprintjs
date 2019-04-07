@@ -4,6 +4,9 @@ import React from "react";
 export default class TaskItem extends React.Component {
   render() {
     const task = this.props.task;
+    const intent = task.due > new Date() ? "primary" : "danger";
+    console.log(intent);
+    console.log(task.due, new Date());
     return (
       <Card className="itemCard" key={task.id}>
         <h2 className={task.status ? "taskDone" : ""}>
@@ -27,7 +30,7 @@ export default class TaskItem extends React.Component {
           Created on <b>{task.timestamp.toLocaleDateString()}</b>
         </Tag>
         {!task.status ? (
-          <Tag intent="primary">
+          <Tag intent={intent}>
             Due by <b>{task.due.toLocaleDateString()}</b>
           </Tag>
         ) : (
