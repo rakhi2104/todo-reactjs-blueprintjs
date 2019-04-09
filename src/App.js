@@ -153,6 +153,11 @@ class App extends Component {
                 Developed by <Icon icon="git-branch" />{" "}
                 <a href="https://github.com/rakhi2104">rakhi2104</a>
               </div>
+
+              <div style={{ textAlign: "center", marginTop: 24 }}>
+                Made with <Icon icon="heart" /> using {" "}
+                <a href="https://blueprintjs.com">BlueprintJS</a>
+              </div>
             </div>
 
             <div className="right">
